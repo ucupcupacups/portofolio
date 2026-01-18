@@ -353,6 +353,7 @@ with col2:
 - Trigger digunakan untuk menjaga **validasi dan konsistensi data**
 - Proyek ini menunjukkan pemahaman **struktur data, relasi, dan query logic**
 """)
+    st.markdown("🔗 **[Dokumentasi SQL 👈](https://drive.google.com/file/d/1hwFLt_fy4xHNW4NGaHCWZE6Z0Xtvy5eH/view?usp=drive_link)**")
 
 st.divider()
 
