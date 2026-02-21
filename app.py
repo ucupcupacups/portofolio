@@ -243,9 +243,9 @@ st.markdown('<div id="projects"></div>', unsafe_allow_html=True)
 st.markdown('<div class="section-title">02. 📊 Projects</div>', unsafe_allow_html=True)
 
 # ---------- PROJECT 1 ----------
-st.header("📊 Project 1 – Data Analyst")
+st.header("📊 Project 1 – Perbandingan Kinerja Algoritma")
 st.write("""
-Analisis dan perbandingan metode **K-Nearest Neighbor (KNN)** dan
+Analisis dan perbandingan metode **Machine Learning** yaitu **K-Nearest Neighbor (KNN)** dan
 **Decision Tree C4.5** untuk memprediksi curah hujan di
 **Kota Tangerang Selatan** berdasarkan data BMKG Stasiun Klimatologi Banten.
 """)
@@ -372,20 +372,26 @@ with c1:
 - Aktif seminar & webinar IT  
 """)
 with st.expander("📄 Lihat Sertifikat Akademik"): 
-    st.image( 
-        "assets/certificates/toefl.png",
-        caption="Sertifikat TOEFL",
-        use_container_width=True )
-
     st.image(
         "assets/certificates/bnsp1.png",
-        caption="Sertifikat BNSP–Programmer",
+        caption="**Sertifikat BNSP – Programmer**",
         use_container_width=True ) 
         
     st.image(
         "assets/certificates/bnsp2.png",
-        caption="Daftar Unit Kompetensi", 
+        caption="**Daftar Unit Kompetensi**", 
         use_container_width=True )
+    
+    st.image( 
+        "assets/certificates/analyst.png",
+        caption="**Sertifikat SpecialSkill Indonesia - Data Analyst**",
+        use_container_width=True )
+    
+    st.image( 
+        "assets/certificates/toefl.png",
+        caption="**Sertifikat TOEFL**",
+        use_container_width=True )
+
 
 
 with c2:
